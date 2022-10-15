@@ -1,0 +1,35 @@
+.earlyAccess{
+    margin-top: 4.5rem;
+    background-color: var(--Desaturated-Blue);
+    text-align: center;
+    color: var(--Light-Grayish-Blue);
+    font-family: var(--open-sans);
+    padding: 4rem 2rem;
+}
+
+.earlyAccess__title{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.earlyAccess__text{
+  margin-bottom: 1.5rem;
+  line-height: 1.6rem;
+}
+
+.form__email{
+    width: 85%;
+    padding: .8rem .5rem;
+    outline: none;
+    margin-bottom: .5rem;
+}
+
+.form__email::placeholder{
+    color: var(--Light-Gray);
+}
+
+.earlyAccess__form .form__cta{
+    width: 85%;
+    padding: .8rem .5rem;
+
+}
