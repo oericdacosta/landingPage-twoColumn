@@ -1,0 +1,42 @@
+.productive{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.productive__img{
+    width: 100%;
+    margin-bottom: 3.5rem;
+}
+
+.productive__title{
+    color: var(--Very-Dark-Blue);
+    font-family: var(--raleway);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.productive__text{
+    color: var(--Desaturated-Blue);
+    font-family: var(--raleway);
+    text-align: left;
+    font-size: .9rem;
+    margin-top: 1.5rem;
+}
+
+.productive__text:last-of-type{
+    margin-top: 1rem;
+}
+
+.productive__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    color: var(--Moderate-Cyan);
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.productive__link img{
+    width: 1.2rem;
+}
