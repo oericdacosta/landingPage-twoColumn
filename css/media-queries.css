@@ -1,0 +1,125 @@
+@media screen and (min-width: 800px) {
+    .container{
+        padding-top: 4rem !important;
+    }
+
+    .logo{
+        width: 15%;
+    }
+
+    .cabecalho__lista{
+        gap: 4rem;
+    }
+
+
+
+
+
+
+    .hero{
+        flex-direction: row-reverse;
+    }
+
+    .hero__img{
+        width: 50%;
+    }
+
+    .column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        width: 60%;
+        max-width: 600px;
+    }
+
+    .hero__form{
+        flex-direction: row;
+    }
+
+    .form__texto, .form__cta{
+        width: 40%;
+    }
+
+
+
+    .productive{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 8rem !important;
+        text-align: left;
+        gap: 3rem;
+    }
+
+    .productive__img{
+        width: 50%;
+    }
+
+    .column2{
+        width: 40%;
+        max-width: 500px;
+    }
+
+    .productive__title{
+        font-size: 1.5rem;
+    }
+
+    .productive__link{
+        justify-content: flex-start;
+    }
+
+
+
+    .card{
+        width: 80%;
+        max-width: 300px;
+        padding: 1rem !important;
+    }
+
+    .profile__name{
+        font-size: .8rem;
+    }
+
+    .profile__occupation{
+        font-size: 14px;
+    }
+
+
+
+    .earlyAccess{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    .column3{
+        width: 50%;
+    }
+
+    .earlyAccess__title{
+        font-size: 1.7rem;
+    }
+
+    .earlyAccess__text{
+        font-size: 14px;
+    }
+
+    .form__email{
+        width: 100%;
+    }
+
+    .earlyAccess__form .form__cta{
+        width: 50%;
+    }
+
+
+
+
+    .rodape{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
