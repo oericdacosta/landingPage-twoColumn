@@ -1,0 +1,19 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 30%;
+}
+
+.cabecalho__lista{
+    display: flex;
+    gap: 1rem;
+}
+
+.cabecalho__link{
+    color: var(--Very-Dark-Blue);
+    font-family: var(--open-sans);
+}
