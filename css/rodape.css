@@ -1,0 +1,41 @@
+.rodape{
+    color: var( --Light-Grayish-Blue);
+    background: var(--Very-Dark-Blue);
+    font-family: var(--open-sans);
+    padding: 4rem 2rem;
+    font-size: 14px;
+}
+
+.contatos__texto{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.rodape__lista{
+    margin-top: 2rem;
+}
+
+.rodape__lista:last-of-type{
+    margin-top: 2.5rem;
+}
+
+.lista__item:not(.lista__item:last-of-type){
+    margin-bottom: 1rem;
+}
+
+.lista__item a{
+    color: var(--Light-Grayish-Blue);
+}
+
+.rodape__social{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social__icon{
+    padding: .8rem;
+    border: 1px solid var(--Light-Grayish-Blue);
+    border-radius: 50%;
+}
